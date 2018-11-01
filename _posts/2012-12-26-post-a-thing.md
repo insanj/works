@@ -1,5 +1,5 @@
 ---
-category: Stuff
+category: examples
 path: '/stuff'
 title: 'Post a thing'
 type: 'POST'

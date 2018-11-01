@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<head>
+  <title>insane.works</title>
+  <meta charset='utf-8'/>
+  <meta name='description' content='Documentation website'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+  <link href='assets.css' rel='stylesheet' type='text/css'>
+</head>
+<body>  
+  <nav id='sidebar'>
+	<h1>insane.works</h1>
+<ul id='links'>
+  
+    
+    <li><a href='#/about'>About</a></li>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+  <li><h2>examples</h2>
+    <ul>
+    
+              
+        <li class=''><a href='#'></a></li>
+      
+    
+              
+        <li class='POST'><a href='#/post-a-thing'>Post a thing</a></li>
+              
+        <li class='PUT'><a href='#/put-a-thing'>Update a thing</a></li>
+      
+    
+    </ul>
+  </li>
+
+  <li><h2>apps</h2>
+    <ul>
+    
+              
+        <li class=''><a href='#'></a></li>
+      
+    
+              
+        <li class='APP'><a href='#/submarine'>Submarine</a></li>
+      
+    
+    </ul>
+  </li>
+
+  <li><h2>app dev</h2>
+    <ul>
+    
+              
+        <li class=''><a href='#'></a></li>
+      
+    
+              
+        <li class='APP'><a href='#/knobby'>knobby</a></li>
+      
+    
+    </ul>
+  </li>
+
+  <li><h2>insane.jpg</h2>
+    <ul>
+    
+              
+        <li class=''><a href='#'></a></li>
+      
+    
+              
+        <li class='YOUTUBE'><a href='#/grim-sky'>getting good with the shotgun in grim sky</a></li>
+      
+    
+    </ul>
+  </li>
+
+  <li><h2>web dev</h2>
+    <ul>
+    
+              
+        <li class=''><a href='#'></a></li>
+      
+    
+              
+        <li class='WEB'><a href='#/insane-pink'>insane.pink</a></li>
+      
+    
+    </ul>
+  </li>
+
+</ul>
+</nav>
+
+<section id='content'>
+
+  <article class=''>
+    <a name='/about' href='#/about'><h2>About</h2></a>
+    <section class='body'>
+      <h3 id="success">Success</h3>
+
+<p>Successes differ from errors in that their body may not be a simple response object with a code and a message. The headers however are consistent across all calls:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">GET</code>, <code class="highlighter-rouge">PUT</code>, <code class="highlighter-rouge">DELETE</code> returns <code class="highlighter-rouge">200 OK</code> on success,</li>
+  <li><code class="highlighter-rouge">POST </code> returns 201 on success,</li>
+</ul>
+
+<p>When <a href="#get-stuff">retrieving stuff</a> for example:</p>
+
+<p><code class="highlighter-rouge">Status: 200 OK</code>
+<code class="highlighter-rouge">{
+    {
+        id: thing_1,
+        name: 'My first thing'
+    },
+    {
+        id: thing_2,
+        name: 'My second thing'
+    }
+}</code></p>
+
+<h3 id="error">Error</h3>
+
+<p>Error responses are simply returning <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">standard HTTP error codes</a> along with some additional information:</p>
+
+<ul>
+  <li>The error code is sent back as a status header,</li>
+  <li>The body includes an object describing both the code and message (for debugging and/or display purposes),</li>
+</ul>
+
+<p>For a call with an invalid authentication token for example:</p>
+
+<p><code class="highlighter-rouge">Status: 401 Access denied</code>
+<code class="highlighter-rouge">{
+    code: 401,
+    message: 'Access denied: invalid authentication token.'
+}</code></p>
+
+    </section>
+  </article>
+
+  <article class='WEB'>
+    <a name='/insane-pink' href='#/insane-pink'><h2><code><b>WEB</b> </code> insane.pink</h2></a>
+    <section class='body'>
+      
+
+    </section>
+  </article>
+
+  <article class='YOUTUBE'>
+    <a name='/grim-sky' href='#/grim-sky'><h2><code><b>YOUTUBE</b> </code> getting good with the shotgun in grim sky</h2></a>
+    <section class='body'>
+      <p>This method allows users to retrieve stuff.</p>
+
+<h3 id="request">Request</h3>
+
+<ul>
+  <li>The headers must include a <strong>valid authentication token</strong>.</li>
+</ul>
+
+<h3 id="response">Response</h3>
+
+<p>Sends back a collection of things.</p>
+
+<p><code class="highlighter-rouge">Status: 200 OK</code>
+<code class="highlighter-rouge">{
+    {
+        id: thing_1,
+        name: 'My first thing'
+    },
+    {
+        id: thing_2,
+        name: 'My second thing'
+    }
+}</code></p>
+
+<p>For errors responses, see the <a href="#response-status-codes">response status codes documentation</a>.</p>
+
+    </section>
+  </article>
+
+  <article class='APP'>
+    <a name='/knobby' href='#/knobby'><h2><code><b>APP</b> </code> knobby</h2></a>
+    <section class='body'>
+      
+
+    </section>
+  </article>
+
+  <article class='APP'>
+    <a name='/submarine' href='#/submarine'><h2><code><b>APP</b> submarineforios.com</code> Submarine</h2></a>
+    <section class='body'>
+      
+
+    </section>
+  </article>
+
+  <article class='POST'>
+    <a name='/post-a-thing' href='#/post-a-thing'><h2><code><b>POST</b> </code> Post a thing</h2></a>
+    <section class='body'>
+      <p>This method allows users to create a new thing.</p>
+
+<h3 id="request">Request</h3>
+
+<ul>
+  <li>The headers must include a <strong>valid authentication token</strong>.</li>
+  <li><strong>The body can’t be empty</strong> and must include at least the name attribute, a <code class="highlighter-rouge">string</code> that will be used as the name of the thing.</li>
+</ul>
+
+<p><code class="highlighter-rouge">Authentication: bearer TOKEN</code>
+<code class="highlighter-rouge">{
+    name: 'My new thing'
+}</code></p>
+
+<h3 id="response">Response</h3>
+
+<p><strong>If succeeds</strong>, returns the created thing.</p>
+
+<p><code class="highlighter-rouge">Status: 201 Created</code>
+<code class="highlighter-rouge">{
+    id: new_thing,
+    name: 'My new thing'
+}</code></p>
+
+<p>For errors responses, see the <a href="#response-status-codes">response status codes documentation</a>.</p>
+
+    </section>
+  </article>
+
+  <article class='PUT'>
+    <a name='/put-a-thing' href='#/put-a-thing'><h2><code><b>PUT</b> </code> Update a thing</h2></a>
+    <section class='body'>
+      <p>This method allows the user to retrieve his stuff.</p>
+
+<h3 id="request">Request</h3>
+
+<ul>
+  <li><strong><code class="highlighter-rouge">:id</code></strong> is the id the thing to update.</li>
+  <li>The headers must include a <strong>valid authentication token</strong>.</li>
+  <li><strong>The body can’t be empty</strong> and must include at least the name attribute, a <code class="highlighter-rouge">string</code> that will be used as the name of the thing.</li>
+</ul>
+
+<p><code class="highlighter-rouge">Authentication: bearer f862f658-ad89-4fcb-995b-7a4c50554ff6</code>
+<code class="highlighter-rouge">{
+    name: 'My new thing'
+}</code></p>
+
+<h3 id="response">Response</h3>
+
+<p>Sends back a collection of things.</p>
+
+<p><code class="highlighter-rouge">Status: 200 OK</code>
+<code class="highlighter-rouge">{
+    {
+        id: thing_1,
+        name: 'My first thing'
+    },
+    {
+        id: thing_2,
+        name: 'My second thing'
+    }
+}</code></p>
+
+<p>For errors responses, see the <a href="#response-status-codes">response status codes documentation</a>.</p>
+
+    </section>
+  </article>
+
+</section>
+
+  
+  <!--[if lt IE 9]><script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <script src='assets.js' type='text/javascript'></script>
+  <script>require('boot');</script>
+</body>
+</html>

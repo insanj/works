@@ -1,5 +1,5 @@
 ---
-category: Stuff
+category: examples
 path: '/stuff/:id'
 title: 'Update a thing'
 type: 'PUT'
