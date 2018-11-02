@@ -5,10 +5,16 @@ title: 'how 2 steal enemy strategies'
 type: 'YOUTUBE'
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hC4baGRZwok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-heartbreaking 1v1s and clutches teach lessons the hard way. more ranked matches to come! these are the last october clips.
-
-💖 support me on patreon https://patreon.com/insanj
-🎬 clips recorded 10/31
-📻 music is Kabul by Baht, GOH by Catt Moop & Tennis Rodman, and Boem by Losi
+<div style="max-width:800px; margin-left: auto; margin-right: auto;">
+	<ul class="list-group">
+	  <li class="list-group-item">
+	  	<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hC4baGRZwok" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	  </li>
+	  <li class="list-group-item">heartbreaking 1v1s and clutches teach lessons the hard way. more ranked matches to come! these are the last october clips.</li>
+	  <a href="https://patreon.com/insanj"><li class="list-group-item active" style="border-radius:0px;">💖 support me on patreon</li></a>
+	  <li class="list-group-item">🎬 clips recorded 10/31</li>
+	  <li class="list-group-item">📻 music is Kabul by Baht, GOH by Catt Moop & Tennis Rodman, and Boem by Losi</li>
+	</ul>
+</div>

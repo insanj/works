@@ -6,6 +6,13 @@
   <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
   <link href='assets.css' rel='stylesheet' type='text/css'>
+
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 </head>
 <body>  
   <nav id='sidebar'>
@@ -13,7 +20,7 @@
 <ul id='links'>
   
     
-    <li><a href='#/about'>About</a></li>
+    <li><a href='#/about'>👋 Welcome!</a></li>
     
   
     
@@ -219,48 +226,21 @@
   <article class=''>
     <a name='/about' href='#/about'><h2>
     	
-    	About
+    	👋 Welcome!
     </h2></a>
     <section class='body'>
-      <h3 id="success">Success</h3>
+      <div class="alert alert-success" role="alert">
+  <strong>🌋 New Website Alert</strong>
+  Nearly ten years of creative content is now available right here. Thanks for coming to insane.works, and don't forget to explore everything in the left sidebar. This top section is for news, so it's a little easier to navigate the chronological content below.
+</div>
 
-<p>Successes differ from errors in that their body may not be a simple response object with a code and a message. The headers however are consistent across all calls:</p>
+<div class="alert alert-info" role="alert">
+  <strong>🎭 insane.jpg</strong> My newest project is a brand new <a style="color: #d472ff;" href="https://youtube.com/insanj">YouTube series on the video game Rainbow Six Siege</a>. New content is posted nearly every day. Support this project <a href="https://patreon.com/insanj">on Patreon</a>!
+</div>
 
-<ul>
-  <li><code class="highlighter-rouge">GET</code>, <code class="highlighter-rouge">PUT</code>, <code class="highlighter-rouge">DELETE</code> returns <code class="highlighter-rouge">200 OK</code> on success,</li>
-  <li><code class="highlighter-rouge">POST </code> returns 201 on success,</li>
-</ul>
-
-<p>When <a href="#get-stuff">retrieving stuff</a> for example:</p>
-
-<p><code class="highlighter-rouge">Status: 200 OK</code>
-<code class="highlighter-rouge">{
-    {
-        id: thing_1,
-        name: 'My first thing'
-    },
-    {
-        id: thing_2,
-        name: 'My second thing'
-    }
-}</code></p>
-
-<h3 id="error">Error</h3>
-
-<p>Error responses are simply returning <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html">standard HTTP error codes</a> along with some additional information:</p>
-
-<ul>
-  <li>The error code is sent back as a status header,</li>
-  <li>The body includes an object describing both the code and message (for debugging and/or display purposes),</li>
-</ul>
-
-<p>For a call with an invalid authentication token for example:</p>
-
-<p><code class="highlighter-rouge">Status: 401 Access denied</code>
-<code class="highlighter-rouge">{
-    code: 401,
-    message: 'Access denied: invalid authentication token.'
-}</code></p>
+<div class="alert alert-warning" role="alert">
+  <strong>🙋‍ Want more info?</strong> This site is developed and hosted on <a href="https://github.com/insanj/works">Github</a>. Everything you need to know is right there, including instructions on how to build your own portfolio site.
+</div>
 
     </section>
   </article>
@@ -275,13 +255,19 @@
     	how 2 steal enemy strategies
     </h2></a>
     <section class='body'>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/hC4baGRZwok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<p>heartbreaking 1v1s and clutches teach lessons the hard way. more ranked matches to come! these are the last october clips.</p>
-
-<p>💖 support me on patreon https://patreon.com/insanj
-🎬 clips recorded 10/31
-📻 music is Kabul by Baht, GOH by Catt Moop &amp; Tennis Rodman, and Boem by Losi</p>
+      <div style="max-width:800px; margin-left: auto; margin-right: auto;">
+	<ul class="list-group">
+	  <li class="list-group-item">
+	  	<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hC4baGRZwok" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+		</div>
+	  </li>
+	  <li class="list-group-item">heartbreaking 1v1s and clutches teach lessons the hard way. more ranked matches to come! these are the last october clips.</li>
+	  <a href="https://patreon.com/insanj"><li class="list-group-item active" style="border-radius:0px;">💖 support me on patreon</li></a>
+	  <li class="list-group-item">🎬 clips recorded 10/31</li>
+	  <li class="list-group-item">📻 music is Kabul by Baht, GOH by Catt Moop &amp; Tennis Rodman, and Boem by Losi</li>
+	</ul>
+</div>
 
     </section>
   </article>
@@ -603,6 +589,14 @@
 </section>
 
   
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+    <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   <!--[if lt IE 9]><script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
   <script src='assets.js' type='text/javascript'></script>
   <script>require('boot');</script>

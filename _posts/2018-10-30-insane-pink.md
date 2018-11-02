@@ -4,3 +4,4 @@ path: '/web/:id'
 title: 'insane.pink'
 type: 'WEB'
 ---
+
