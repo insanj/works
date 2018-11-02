@@ -1,6 +1,6 @@
 ---
 category: web dev
-path: '/projects/:id'
+path: '/web/:id'
 title: 'insane.pink'
 type: 'WEB'
 ---

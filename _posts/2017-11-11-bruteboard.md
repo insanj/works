@@ -1,6 +1,6 @@
 ---
 category: apps
 path: '/apps/:id'
-title: 'knobby'
+title: 'bruteboard'
 type: 'APP'
 ---
