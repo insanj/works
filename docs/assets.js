@@ -9678,7 +9678,13 @@ $('article').each(function () {
 });
 
 var anchor = window.location.hash.substring(1);
-if (anchor) $('article a[name="' + anchor + '"]').trigger('click');
+let defaultAnchor = "/about";
+if (anchor) {
+	$('article a[name="' + anchor + '"]').trigger('click');
+} else {
+	$('article a[name="' + defaultAnchor + '"]').trigger('click');
+}
+
 
 // Expanding the article on link click and scrolling down to it
 $('#sidebar a').each(function () {
