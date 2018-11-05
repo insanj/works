@@ -15,7 +15,7 @@ layout: default
     			<b>{{ post.type }}</b> {{ post.project_url }}
     		</code> 
     	{% endif %}
-    	{{ post.title }}
+    	{{post.category | truncate: 1, "" }} {{ post.title }}
     </h2></a>
     <section class='body'>
       {{ post.content }}
