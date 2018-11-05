@@ -1,17 +1,13 @@
 ---
+layout: website
 category: 🌎 websites
 path: '/web/:id'
 title: 'insane.pink'
 type: 'WEB'
+website_img: insanepink.jpg
+website_line_one: 🎳 website for insane.jpg siege youtube videos.
+website_line_two: 🚀 Production Site
+website_link_two: http://insane.pw
+website_line_three: 👾 Development Site
+website_link_three: http://insane.pink
 ---
-
-<div style="max-width:800px; margin-left: auto; margin-right: auto;">
-	<ul class="list-group">
-	  <li class="list-group-item">
-		<img width="100%" src="/assets/images/insanepink.jpg" />
-	  </li>
-	  <li class="list-group-item">🎳 website for insane.jpg siege youtube videos.</li>
-	  <a href="http://insane.pw"><li class="list-group-item">🚀 Production Site</li></a>
-	  <a href="http://insane.pink"><li class="list-group-item">👾 Development Site</li></a>
-	</ul>
-</div>

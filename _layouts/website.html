@@ -1,0 +1,16 @@
+<div style="max-width:800px; margin-left: auto; margin-right: auto;">
+	<ul class="list-group">
+	  <li class="list-group-item">
+		<img width="100%" src="/assets/images/{{ page.website_img }} " />
+	  </li>
+	  <li class="list-group-item">{{ page.website_line_one }} </li>
+
+	  {% if page.website_link_two %} <a href=" {{ page.website_link_two }}">  {% endif %}
+	  <li class="list-group-item">{{ page.website_line_two }}</li>
+	  {% if page.website_link_two %} </a> {% endif %}
+
+	  {% if page.website_link_three %} <a href=" {{ page.website_link_three }}"> {% endif %}
+	  <li class="list-group-item">{{ page.website_line_three }}</li>
+	  {% if page.website_link_three %} </a> {% endif %}
+	</ul>
+</div>
