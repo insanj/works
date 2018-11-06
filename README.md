@@ -2,6 +2,8 @@
 <h3 align="center">🐛 collected creative works by insanj & friends</h3>
 <h4 align="center"><a href="https://insane.works">hosted on https://insane.works</a></h4>
 
+![](insaneworks.png)
+
 # Usage
 
 - Install [Jekyll](https://jekyllrb.com/)
