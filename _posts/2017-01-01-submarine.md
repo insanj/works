@@ -1,7 +1,0 @@
----
-category: apps
-path: '/apps/:id'
-title: 'Submarine'
-type: 'APP'
-project_url: submarineforios.com
----

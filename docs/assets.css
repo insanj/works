@@ -577,20 +577,20 @@ code {
 
 /* GET */
 #content article.APP a h2 code {
-  color: #119bdf;
+  color: rgba(65,121,239,1);
 }
 
 #content article.APP a h2 code b {
-  background: #119bdf;
+  background: rgba(65,121,239,1);
 }
 
 /* POST */
-#content article.WEB a h2 code {
-  color: #52ce0e;
+#content article.WEBSITE a h2 code {
+  color: rgba(22,194,87,1);
 }
 
-#content article.WEB a h2 code b {
-  background: #52ce0e;
+#content article.WEBSITE a h2 code b {
+  background: rgba(22,194,87,1);
 }
 
 /* PUT */
@@ -604,11 +604,11 @@ code {
 
 /* DELETE */
 #content article.YOUTUBE a h2 code {
-  color: #e02a10;
+  color: rgba(255,83,87,1);
 }
 
 #content article.YOUTUBE a h2 code b {
-  background: #e02a10;
+  background: rgba(255,83,87,1);
 }
 
 /* Reference's body */

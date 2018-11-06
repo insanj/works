@@ -1,9 +1,9 @@
 ---
 layout: website
 category: 🌎 websites
-path: '/web/:id'
+permalink: '/website/:title'
 title: 'insane.pink'
-type: 'WEB'
+type: 'WEBSITE'
 website_img: insanepink.jpg
 website_line_one: 🎳 website for insane.jpg siege youtube videos.
 website_line_two: 🚀 Production Site

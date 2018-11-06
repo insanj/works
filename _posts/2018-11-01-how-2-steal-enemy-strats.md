@@ -1,7 +1,7 @@
 ---
 layout: youtube
 category: 🎬 insane.jpg
-path: '/insane.jpg/:id'
+permalink: '/youtube/:title'
 title: 'how 2 steal enemy strategies'
 type: 'YOUTUBE'
 youtube_src: https://www.youtube.com/embed/hC4baGRZwok
