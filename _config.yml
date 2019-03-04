@@ -3,4 +3,7 @@ exclude: ['README.markdown']
 permalink: ':title'
 safe: false
 title: 'insane.works'
-highlighter: rouge
+author: '@insanj'
+description: '🐛 creative works by julian weiss'
+description_biline: '👾 see this project on github'
+highlighter: rouge 
