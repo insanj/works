@@ -10,4 +10,5 @@ website_line_two: 🚀 Production Site
 website_link_two: http://insane.pw
 website_line_three: 👾 Development Site
 website_link_three: http://insane.pink
+emoji: 🎳
 ---

@@ -10,4 +10,5 @@ website_line_two: 🚀 Documentation Site
 website_link_two: http://timesheet.site/
 website_line_three: 👾 Github
 website_link_three: https://github.com/insanj/timesheet
+emoji: ⌚
 ---

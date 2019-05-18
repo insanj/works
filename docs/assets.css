@@ -469,11 +469,12 @@ code {
 }
 
 #sidebar ul#links {
-  padding: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 #sidebar ul ul {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 #sidebar ul li a {
@@ -526,8 +527,8 @@ code {
 }
 
 #content article > a {
-  background: #333;
-  border-radius: 2px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 8px !important;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   cursor: pointer;
@@ -593,11 +594,11 @@ code {
 }
 
 /* PUT */
-#content article.GITHUB a h2 code {
+#content article.MOD a h2 code {
   color: #e08f10;
 }
 
-#content article.GITHUB a h2 code b {
+#content article.MOD a h2 code b {
   background: #e08f10;
 }
 
