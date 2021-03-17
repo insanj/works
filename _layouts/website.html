@@ -1,22 +1,31 @@
 <div style="max-width:800px; margin-left: auto; margin-right: auto;">
 	<ul class="list-group">
+
+	{% if page.website_img %}		
 	  <li class="list-group-item">
 			<img width="200px" src="/assets/images/{{ page.website_img }} " />
 	  </li>
+	{% endif %}
 
+	{% if page.website_line_one %}		
 	  <li class="list-group-item">{{ page.website_line_one }} </li>
+	{% endif %}
 
+	{% if page.website_line_two %}		
 	  <li class="list-group-item">
 		  <a target=_blank href=" {{ page.website_link_two }}"> 
 		  	{{ page.website_line_two }}
 		  </a>
 	 	</li>
+	{% endif %}
 
+	{% if page.website_line_three %}		
 	  <li class="list-group-item">
 	  	<a target=_blank href=" {{ page.website_link_three }}"> 
 		  	{{ page.website_line_three }}
 		  </a>
 		</li>
+	{% endif %}
 
 	</ul>
 </div>
