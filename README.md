@@ -12,7 +12,16 @@
 
 > NOTE: works is based on the [Carte Jekyll Theme](https://github.com/Wiredcraft/carte) under the [MIT License](https://github.com/Wiredcraft/carte/blob/gh-pages/LICENSE.md), which is locally available in the [carte-LICENSE.md](carte-LICENSE.md) file
 
+> I found this article helpful for setting up on an M1 machine https://www.earthinversion.com/blogging/how-to-install-jekyll-on-appple-m1-macbook/
+
 # Authors
+
+```
+Julian @insanj Weiss
+github.com/insanj
+julian@oogycanyouhelp.com
+(c) 2022
+```
 
 [Julian Weiss (insanj)](https://insanj.com). [@insanj](https://github.com/insanj). https://insanj.works.
 
@@ -21,3 +30,5 @@
 - "works" is licensed under gpl-3.0
 - "insanj.works" live site is copyright (c) 2018
 - "carte-jekyll" is licensed under mit
+
+[see LICENSE](LICENSE)
