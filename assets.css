@@ -605,6 +605,10 @@ code {
   background: rgba(238, 241, 242, 0.82) !important;
 }
 
+.list-group-item img {
+  max-width: 100%;
+}
+
 #content article {
   border-color: #e2e7ea;
 }

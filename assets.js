@@ -7129,6 +7129,7 @@ jQuery(function() {
 			}
 		};
 	}
+
 });
 
 if ( jQuery.expr && jQuery.expr.filters ) {
@@ -9685,6 +9686,8 @@ if (anchor) {
 	$('article a[name="' + defaultAnchor + '"]').trigger('click');
 }
 
+// Expand all article links by default
+$('#content article:not(".active") > a').trigger('click');    
 
 // Expanding the article on link click and scrolling down to it
 $('#sidebar a').each(function () {
@@ -9703,17 +9706,17 @@ $('#sidebar a').each(function () {
 });
 
 // Hide all/Show all links
-var show = $('<a class=\'control\'>Show all</a>');
-show.click(function () {
-  $('#content article:not(".active") > a').trigger('click');    
-});
-$('#content').prepend(show);
+// var show = $('<a class=\'control\'>Show all</a>');
+// show.click(function () {
+//   $('#content article:not(".active") > a').trigger('click');    
+// });
+// $('#content').prepend(show);
 
-var hide = $('<a class=\'control\'>Hide all</a>');
-hide.click(function () {
-  $('#content article.active > a').trigger('click');    
-});
-$('#content').prepend(hide);
+// var hide = $('<a class=\'control\'>Hide all</a>');
+// hide.click(function () {
+//   $('#content article.active > a').trigger('click');    
+// });
+// $('#content').prepend(hide);
 
 // Making our navigation sticky
 new Filter($('#sidebar > ul'));
