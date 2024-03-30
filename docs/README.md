@@ -1,6 +1,6 @@
 <h1 align="center">works</h1>
 <h3 align="center">🐛 collected creative works by insanj & friends</h3>
-<h4 align="center"><a href="https://insane.works">hosted on https://insane.works</a></h4>
+<h4 align="center"><a href="https://julian.coffee">hosted on https://julian.coffee</a></h4>
 
 ![](insaneworks.png)
 

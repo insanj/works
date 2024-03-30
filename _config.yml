@@ -2,8 +2,8 @@
 exclude: ["README.markdown"]
 permalink: ":title"
 safe: false
-title: "insane.works"
+title: "julian.coffee"
 author: "@insanj"
 description: "🐛 creative works by julian weiss"
-description_biline: "❤ made with love<div></div>© 2018-2022"
+description_biline: "❤ made with love<div></div>© 2018-2024"
 highlighter: rouge
